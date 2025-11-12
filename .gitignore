@@ -1,0 +1,57 @@
+# ---------------------------
+# QBASIC / QB64 Project .gitignore
+# ---------------------------
+
+# QBASIC source files are usually .BAS — keep those!
+# Ignore compiled and generated files.
+
+# Compiled executables
+*.exe
+*.EXE
+
+# QB64 intermediate build files
+*.bin
+*.o
+*.obj
+*.dll
+*.lib
+*.bak
+*.tmp
+*.log
+
+# QB64 build and output directories
+/internal/
+output/
+build/
+temp/
+tmp/
+
+# DOSBox or emulator-related files
+*.sav
+*.bat~
+*.cfg
+*.dosbox
+*.img
+*.iso
+
+# Backup and temporary files
+*.bak
+*.old
+*.swp
+*.swo
+*.tmp
+*~
+~$*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code or editor configs (optional)
+.vscode/
+.idea/
+*.code-workspace
+
+# QB64 project folder (auto-created)
+qb64cc/
